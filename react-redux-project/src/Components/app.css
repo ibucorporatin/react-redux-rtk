@@ -1,0 +1,136 @@
+.navBar{
+display: flex;
+align-items:center;
+justify-content: space-between;
+}
+.cart{
+    font-size: 25px;
+    margin: 10px;
+    position: relative;
+    z-index: -1;
+}
+.cart:hover{
+color: rgb(90, 90, 245);
+}
+#cart1:hover{
+    color: rgb(90, 90, 245); 
+}
+
+#productDescription{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.details,.addToCart{
+    margin: 10px;
+}
+.addToCart{
+    font-size: 25px;
+    color: black;
+    margin-right: 30px;
+    transition:0.2s linear;
+}
+.addToCart:hover{
+    color: rgb(90, 90, 245);
+    font-size: 30px;
+}
+.CartContainer {
+    margin: 61px 20px 20px 20px;
+}
+.cartProduct{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cartimage{
+    width: 100px;
+    height: 100px;
+}
+.tableContainer{
+    margin: 60px 20px 20px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+table{
+    width: 80vw;
+}
+.cartCount {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 45, 45);
+    position: absolute;
+    top: -27%;
+    right: 14%;
+    z-index: 2;
+}
+.cartNumber{
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+}
+.emptyCart{
+    margin: 60px 20px 20px 20px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+.alreadyExist{
+    color: rgb(206, 206, 246);
+    font-size: 30px;
+    
+}
+.alreadyExist:hover{
+    color: rgb(206, 206, 246);
+    font-size: 30px;
+}
+.home{
+    font-size: 25px;
+    margin: 10px;
+}
+.home:hover{
+    color: rgb(90, 90, 245); 
+}
+.name{
+    margin: 0%;
+}
+#productList{
+    margin-top: 30px;
+  
+}
+
+.quantityContainer{
+  border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+   max-width: 70px;
+   text-align: center !important ;
+}
+.quantityContainer span{
+  
+    padding: 5px;
+  
+   
+}
+.qtyButon{
+    padding: 5px;
+}
+.totalContainer{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
